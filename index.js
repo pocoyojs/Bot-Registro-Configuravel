@@ -4,7 +4,7 @@ const config = require("./config.json");
 
 client.login(config.token); 
 
-client.once('ready', async () => {
+client.once('ready', async (1205149534683144222) => {
 
     console.log(`🎈 - ${client.user.tag} Foi iniciada em ${client.guilds.cache.size} servidores!\n👑 - Tendo acesso a ${client.channels.cache.size} canais!\n❣️ - Contendo ${client.users.cache.size} usuarios!` )
 
