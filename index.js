@@ -31,7 +31,7 @@ client.on('messageCreate', message => {
 
 client.on("ready", () => {
     let activities = [
-      `💻 ┃ Victor o Brabo.`,
+      `NTD Store no topo.`,
       ],
       i = 0;
     setInterval( () => client.user.setActivity(`${activities[i++ % activities.length]}`, {
